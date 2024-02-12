@@ -11,7 +11,7 @@ const Footer = ({ title }) => {
         <footer
             className='relative z-10 dark:bg-gray-800 flex-shrink-0 justify-center text-center m-auto w-full leading-6 text-sm p-6 bg-white dark:text-gray-400'
         >
-
+        
             <span>
                 <DarkModeButton />
 
@@ -27,6 +27,7 @@ const Footer = ({ title }) => {
                 <h1>{title}</h1>
                 <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/tangly1024/NotionNext' className='underline '>NotionNext {siteConfig('VERSION')}</a>.</span>
             </span>
+        <script async src="https://umami.beybi.eu.org/script.js" data-website-id="f89082b0-abbd-4603-81e4-c439a8d94926"></script>
         </footer>
   )
 }
