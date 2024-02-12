@@ -78,7 +78,7 @@ const LayoutBase = (props) => {
       drawerRight?.current?.handleSwitchVisible()
     }} />
  </div>
-
+ <script async src="https://umami.beybi.eu.org/script.js" data-website-id="f89082b0-abbd-4603-81e4-c439a8d94926"></script>
   const tocRef = isBrowser ? document.getElementById('article-wrapper') : null
 
   const searchModal = useRef(null)
