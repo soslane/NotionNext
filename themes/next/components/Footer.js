@@ -27,7 +27,6 @@ const Footer = ({ title }) => {
                 <h1>{title}</h1>
                 <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href='https://github.com/tangly1024/NotionNext' className='underline '>NotionNext {siteConfig('VERSION')}</a>.</span>
             </span>
-        <script async src="https://umami.beybi.eu.org/script.js" data-website-id="f89082b0-abbd-4603-81e4-c439a8d94926"></script>
         </footer>
   )
 }
